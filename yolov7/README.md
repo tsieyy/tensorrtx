@@ -9,6 +9,7 @@ The tensorrt code is derived from [QIANXUNZDL123/tensorrtx-yolov7](https://githu
 <a href="https://github.com/QIANXUNZDL123"><img src="https://avatars.githubusercontent.com/u/46549527?v=4?s=48" width="40px;" alt=""/></a>
 <a href="https://github.com/lindsayshuo"><img src="https://avatars.githubusercontent.com/u/45239466?v=4?s=48" width="40px;" alt=""/></a>
 <a href="https://github.com/wang-xinyu"><img src="https://avatars.githubusercontent.com/u/15235574?s=48&v=4" width="40px;" alt=""/></a> 
+<a href="https://github.com/AMIYAMAITY"><img src="https://avatars.githubusercontent.com/u/25117739?s=48&v=4" width="40px;" alt=""/></a> 
 
 ## Requirements
 
@@ -48,7 +49,7 @@ cd build
 cp {WongKinYiu}/yolov7/yolov7.wts {tensorrtx}/yolov7/build
 cmake ..
 make
-sudo ./yolov7 -s [.wts] [.engine] [t/v7/x/w6/e6/d6/e6e gd gw]  // serialize model to plan file
+sudo ./yolov7 -s [.wts] [.engine] [t/v7/x/w6/e6/d6/e6e]  // serialize model to plan file
 sudo ./yolov7 -d [.engine] [image folder]  // deserialize and run inference, the images in [image folder] will be processed.
 // For example yolov7
 sudo ./yolov7 -s yolov7.wts yolov7.engine v7
